@@ -10,13 +10,11 @@ public class Counter {
     }
 
     int incrementCount() {
-        count++;
-        return count;
+        return ++count;
     }
 
     int decrementCount() {
-        count--;
-        return count;
+        return --count;
     }
 
     public Counter(int starting) {

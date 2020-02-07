@@ -37,7 +37,6 @@ public class CounterTest {
         assertEquals(-1, myCounter.decrementCount());
     }
 
-    
     @DisplayName("Checking Constructor with value")
     @Test
     void testConstructorWithValue() {
