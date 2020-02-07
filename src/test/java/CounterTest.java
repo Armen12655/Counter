@@ -1,9 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.function.Executable;
-
 
 public class CounterTest {
     private Counter myCounter;
@@ -37,6 +34,7 @@ public class CounterTest {
         assertEquals(-1, myCounter.decrementCount());
     }
 
+    
     @DisplayName("Checking Constructor with value")
     @Test
     void testConstructorWithValue() {

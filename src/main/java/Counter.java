@@ -18,7 +18,7 @@ public class Counter {
     }
 
     public Counter(int starting) {
-        if(starting < 0)
+        if (starting < 0)
             throw new IllegalArgumentException("must be greater then 0");
         else
             this.count = starting;
